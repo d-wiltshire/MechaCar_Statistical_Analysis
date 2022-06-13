@@ -1,5 +1,16 @@
 # MechaCar_Statistical_Analysis
 
+## Overview
+
+The goal of this exercise was to use R to identify statistical insights regarding the development of a fictional automobile prototype, the "MechaCar". R was used to: 
+
+* Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+* Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+* Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+
+In addition, a statistical study was proposed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
+
+
 ## Linear Regression to Predict MPG
 
 write a short summary using a screenshot of the output from the linear regression, and address the following questions:
