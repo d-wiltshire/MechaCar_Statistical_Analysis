@@ -30,4 +30,22 @@ lot_summary <- s_coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=m
 
 
 
-#Deliverable 3
+## Deliverable 3
+
+t.test(s_coil_table$PSI,mu=1500)
+
+lot1 <- s_coil_table[s_coil_table$Manufacturing_Lot=="Lot1",]
+
+t.test(lot1$PSI,mu=1500)
+
+lot2 <- s_coil_table[s_coil_table$Manufacturing_Lot=="Lot2",]
+
+t.test(lot2$PSI,mu=1500)
+
+lot3 <- s_coil_table[s_coil_table$Manufacturing_Lot=="Lot3",]
+
+t.test(lot3$PSI,mu=1500)
+
+
+
+
