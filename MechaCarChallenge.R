@@ -26,6 +26,8 @@ lot_summary <- s_coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=m
 
 
 
+
+
 ## Deliverable 3
 
 t.test(s_coil_table$PSI,mu=1500)
