@@ -61,8 +61,7 @@ The following shows the result of performing a t-test on all manufacturing lots:
 ![15_deliv3_ttest_all](https://user-images.githubusercontent.com/100863488/173584708-9909d6cf-e2c0-42ff-b295-296950c409a6.png)
 
 
-The p-value is .060. Assuming our significance level is 0.05, our p-value is above ou![Uploading 15_deliv3_ttest_all.png…]()
-r significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+The p-value is .060. Assuming our significance level is 0.05, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 
 The following shows the result of performing t-tests on each of the three individual manufacturing lots:
