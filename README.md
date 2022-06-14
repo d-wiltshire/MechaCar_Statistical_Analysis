@@ -77,7 +77,7 @@ The final deliverable includes the design a statistical study to compare perform
 
 The study described here involves **a comparison of maintenance costs** between the MechaCar and competitors' vehicles in its category. The competitors to compare would be cars in the same price range as the MechaCar with similar sizes and customer use (for example, if the MechaCar is a compact SUV, we would compare against competitors' compact SUVs in the same price range). The goal of the study would be to provide information that would help make the MechaCar more competitive as a purchase option by quantifying the difference in maintenance costs between the MechaCar and its competitors.
 
-* The null hypothesis in this study is that there is no difference in maintenance costs between MechaCar and its competitors.
+* The null hypothesis in this study is that there is no statistically significant difference in maintenance costs between MechaCar and its competitors.
 * The alternative hypothesis is that there is a statistically significant difference in maintenance costs between MechaCar and its competitors.
 * The maintenance costs would be quantified in dollars.
 * An effective test to run would be the two-sample t-test, to determine whether there is a statistical difference between the distribution means of the two samples.
