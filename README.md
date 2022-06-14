@@ -19,6 +19,7 @@ The output of the linear regression can be seen here:
 ![15_deliv1_lm](https://user-images.githubusercontent.com/100863488/173578975-14b5c6c5-a6e1-419c-a79c-e138d2bd6aee.png)
 
 Notes:
+
 <b>Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?</b>
 * In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results, vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words, these are likely to have a significant impact on mpg values.
 
