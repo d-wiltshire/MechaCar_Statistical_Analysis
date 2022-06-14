@@ -68,16 +68,17 @@ The following shows the result of performing t-tests on each of the three indivi
 
 ![15_deliv3_ttest_each](https://user-images.githubusercontent.com/100863488/173584739-820dc7bb-1929-4414-afc5-b8aab60850d1.png)
 
-The p-values for Lot 1 and Lot 2 are very high, so we can comfortably state that the two means are very similar. However, the p-value for Lot 3 (.041) is below our significance level of .05, so we do have sufficient evidence to reject the null hypothesis. 
+The p-values for Lot 1 and Lot 2 are very high, so we can comfortably state that the two means are very similar. However, the p-value for Lot 3 (.041) is below our significance level of .05, so we do have sufficient (although not strong) evidence for rejecting the null hypothesis. 
 
 
 ## Study Design: MechaCar vs Competition
-Deliverable 4 Instructions
-Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+The final deliverable includes the design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+The study described here involves **a comparison of maintenance costs** between the MechaCar and competitors' vehicles in its category. The competitors to compare would be cars in the same price range as the MechaCar with similar sizes and customer use (for example, if the MechaCar is a compact SUV, we would compare against competitors' compact SUVs in the same price range). The goal of the study would be to provide information that would help make the MechaCar more competitive as a purchase option by quantifying the difference in maintenance costs between the MechaCar and its competitors.
+
+* The null hypothesis in this study is that there is no difference in maintenance costs between MechaCar and its competitors.
+* The alternative hypothesis is that there is a statistically significant difference in maintenance costs between MechaCar and its competitors.
+* The maintenance costs would be quantified in dollars.
+* An effective test to run would be the two-sample t-test, to determine whether there is a statistical difference between the distribution means of the two samples.
+* The data needed to run this test would be reported maintenance costs of the MechaCar and its competitors over time. Perhaps the most consistent source of this information would be from dealerships offering maintenance services with long-term client bases. A sample of MechaCars and a sample of a competitor's model could be identified and each car associated with a maintenance cost (for example, the total maintenance cost after ten years of driving). If the type of maintenance could be identified also (for example, engine versus tire maintenance), this could provide helpful direction for areas in which to improve MechaCar's performance.
