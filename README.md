@@ -54,7 +54,22 @@ The **summary by manufacturing lot** can be seen here:
 
 ## T-Tests on Suspension Coils
 
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+For this deliverable, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+The following shows the result of performing a t-test on all manufacturing lots:
+
+![15_deliv3_ttest_all](https://user-images.githubusercontent.com/100863488/173584708-9909d6cf-e2c0-42ff-b295-296950c409a6.png)
+
+
+The p-value is .060. Assuming our significance level is 0.05, our p-value is above ou![Uploading 15_deliv3_ttest_all.png…]()
+r significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+
+The following shows the result of performing t-tests on each of the three individual manufacturing lots:
+
+![15_deliv3_ttest_each](https://user-images.githubusercontent.com/100863488/173584739-820dc7bb-1929-4414-afc5-b8aab60850d1.png)
+
+The p-values for Lot 1 and Lot 2 are very high, so we can comfortably state that the two means are very similar. However, the p-value for Lot 3 (.041) is below our significance level of .05, so we do have sufficient evidence to reject the null hypothesis. 
 
 
 ## Study Design: MechaCar vs Competition
